@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">    
+    <title>Links website</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <style>
+    body {
+      background: url("https://www.w3schools.com/howto/img_link_tree_template3_bg.jpg");
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .links-container a {
+      width: 80%;
+    }
+
+    .w3-theme-l1:hover {
+      background-color: #14a6d3 !important;
+    }
+
+    .margin-top-2 {
+      margin-top: 32px;
+    }
+
+    .bottom {
+      width: 100%;
+      text-align: center;
+      font-weight: bolder;
+    }
+
+    .bottom span {
+      color: #fcfcfc;
+    }
+
+    .bottom svg {
+      stroke: #ffffff;
+      fill: #1a6deb;
+    }
+
+    @media (min-width: 768px) {
+      .link {
+        width: 100%;
+      }
+    }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+    </style>
+  </head>
+  <body>
+      <p id="biografia" style="text-align: center; font-weight: bold;"></p>
+
+      <div class="container">
+        <div style="text-align: center">
+          <img src="https://avatars.githubusercontent.com/u/168256446?v=4&size=64" class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
+          <p><span class="name w3-padding w3-pink w3-round" style="font-weight: bolder;" id="name">BIENVENIDO</span></p>
+          <p style="font-weight: bolder;">¡Mira mis enlaces!</p>
+        </div>
+
+        <h4 class="margin-top-2" style="text-align: center;">MIS REDES SOCIALES</h4>
+        <div class="links-container">
+          <a id="facebookLink" href="https://www.facebook.com/jhongrandag" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Facebook</a>
+          <br>
+          <a id="instagramUser" href="https://www.instagram.com/jhonj6889/" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Instagram</a>
+          <br>
+          <a id="xUser" href="https://x.com/" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">X</a>
+          <br>
+          <a id="githubUser" href="https://github.com/jhon6889" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Github</a>
+        </div>
+
+        <h4 class="margin-top-2" style="text-align: center;">MI EXPERIENCIA</h4>
+        <div class="links-container">
+          <a id="linkedinUser" href="https://es.linkedin.com/" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">LinkedIn</a>
+        </div>
+
+        <h4 class="margin-top-2" style="text-align: center;">MI WEB</h4>
+        <div class="links-container">
+          <a id="website" href="https://jamesportafolio.pages.dev/" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Ingresa a mi Web</a>
+        </div>
+
+        <div class="bottom margin-top-2 w3-padding w3-round">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <span id="author"> john james  2025 - </span>
+        </div>
+
+      </div>
+      <script src="requests.js"></script>
+    </body>
+</html>
